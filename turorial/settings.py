@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 # mysql database config
-MYSQL_HOST = '10.10.136.109'
+MYSQL_HOST = '127.0.0.1'
 MYSQL_DBNAME = 'marketing'
-MYSQL_USER = 'sdk_marketing'
-MYSQL_PASSWD = 'sYkQn9TKnGLcxnFc'
+MYSQL_USER = 'root'
+MYSQL_PASSWD = '123456'
 # end of mysql database config
 
 ITEM_PIPELINES = {
