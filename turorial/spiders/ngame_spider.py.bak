@@ -1,0 +1,73 @@
+# -*- coding: utf-8 -*-
+import scrapy
+from scrapy import log
+import codecs
+from twisted.enterprise import adbapi
+from datetime import datetime
+from hashlib import md5
+import MySQLdb
+import MySQLdb.cursors
+from turorial.ngame_items import NgameItem
+from scrapy.utils.project import get_project_settings
+
+class NgameSpider(scrapy.Spider, object):
+    name = "ngame"
+    allowed_domains = ["9game.cn"]
+    start_urls = []
+    settings = get_project_settings()
+    host=settings['MYSQL_HOST']
+    db=settings['MYSQL_DBNAME']
+    user=settings['MYSQL_USER']
+    passwd=settings['MYSQL_PASSWD']
+    charset='utf8'
+    cursorclass = MySQLdb.cursors.DictCursor
+    use_unicode= True,
+
+    def __init__(self):
+	self.init_start_urls()
+
+    def init_start_urls(self):
+        self.conn = MySQLdb.connect(user=self.user, passwd=self.passwd, db=self.db, host=self.host, charset="utf8", use_unicode=True, cursorclass=self.cursorclass)
+        self.cursor = self.conn.cursor()
+        self.cursor.execute("select * from mt_news_rule where source_id=1")
+        results = self.cursor.fetchall()
+        if not results:
+            print "WARNING:not crawl url setting"
+        #print results
+        for ret in results:
+            # append start_urls
+            self.start_urls.append(ret['fetch_url'])
+
+    #异常处理
+    def _handle_error(failue, item):
+	print failue
+        print 'insert failed................'
+        log.msg(failue)
+
+    def start_requests(self):
+        for url in self.start_urls:
+            yield self.make_requests_from_url(url)
+
+    def make_requests_from_url(self, url):
+        return scrapy.Request(url,headers={'User-Agent': "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2612.0 Safari/537.36"})
+
+    def parse(self, response):
+	items = []
+        for sel in response.xpath('//ul/li/div/p[@class="tit"]'):
+            item = NgameItem()
+	    title = sel.xpath('a/text()').extract()
+            link = sel.xpath('a/@href').extract()
+            item['title'] = title[0].encode('utf-8')
+            item['link'] = link[0].encode('utf-8')
+            # 调用详情页
+            yield scrapy.Request("http://www.9game.cn/zhuxian/1213081.html", meta={'item':item},callback=self.parse_detail)
+            item['desc'] = sel.xpath('text()').extract()[0]
+	    items.append(item)
+       # return items
+
+    def parse_detail(self, response):
+	print 'parse_detail running................'
+        print response
+	item = response.meta['item']
+	return item
+	

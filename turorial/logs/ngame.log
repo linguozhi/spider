@@ -1,0 +1,419 @@
+2016-10-19 09:58:16 [scrapy] INFO: Scrapy 1.2.0 started (bot: turorial)
+2016-10-19 09:58:16 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'turorial.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['turorial.spiders'], 'BOT_NAME': 'turorial', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2612.0 Safari/537.36', 'LOG_FILE': 'logs/ngame.log'}
+2016-10-19 09:58:16 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-19 09:58:16 [ngame] INFO: 2016-10-19 09:58:16:ngame crawl running................
+2016-10-19 09:58:16 [ngame] ERROR: db error, sql:select * from mt_news_rule where 1=1 and is_delete=0 and status=1 and  source_id=1
+2016-10-19 09:58:16 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-19 09:58:16 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-19 09:58:16 [scrapy] INFO: Enabled item pipelines:
+['turorial.pipelines.TurorialPipeline']
+2016-10-19 09:58:16 [scrapy] INFO: Spider opened
+2016-10-19 09:58:16 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 09:58:16 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-10-19 09:58:16 [scrapy] INFO: Closing spider (finished)
+2016-10-19 09:58:16 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 19, 1, 58, 16, 219731),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'start_time': datetime.datetime(2016, 10, 19, 1, 58, 16, 216936)}
+2016-10-19 09:58:16 [scrapy] INFO: Spider closed (finished)
+2016-10-19 10:02:06 [scrapy] INFO: Scrapy 1.2.0 started (bot: turorial)
+2016-10-19 10:02:06 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'turorial.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['turorial.spiders'], 'BOT_NAME': 'turorial', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2612.0 Safari/537.36', 'LOG_FILE': 'logs/ngame.log'}
+2016-10-19 10:02:06 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-19 10:02:06 [ngame] INFO: 2016-10-19 10:02:06:ngame crawl running................
+2016-10-19 10:02:06 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-19 10:02:06 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-19 10:02:06 [scrapy] INFO: Enabled item pipelines:
+['turorial.pipelines.TurorialPipeline']
+2016-10-19 10:02:06 [scrapy] INFO: Spider opened
+2016-10-19 10:02:06 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 10:02:06 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-10-19 10:02:06 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/robots.txt> (referer: None)
+2016-10-19 10:02:07 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/news-9-1/> (referer: None)
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:07 [ngame] INFO: dup_times: 0
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1051537.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1051537.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1051537.html',
+ 'publish_time': u'2016-08-03 17:58:00',
+ 'rule_id': 1L,
+ 'title': '\xe9\x87\x8d\xe7\x8e\xb0\xe7\xab\xaf\xe6\xb8\xb8\xe7\xbb\x8f\xe5\x85\xb8\xef\xbc\x81\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\x85\xac\xe6\xb5\x8b\xe5\xae\xa3\xe4\xbc\xa0\xe7\x89\x87\xe5\x8f\x91\xe5\xb8\x83',
+ 'type_id': 1L}
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1061730.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1065710.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1060503.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1058697.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1061730.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1061730.html',
+ 'publish_time': u'2016-08-07 19:33:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe4\xb8\xbb\xe8\xa7\x92\xe6\x97\xb6\xe8\xa3\x85GIF\xe5\xb1\x95\xef\xbc\x81\xe8\xbf\x98\xe6\x9c\x89\xe7\xac\xac\xe4\xba\x8c\xe5\xa5\x97\xef\xbc\x9f',
+ 'type_id': 1L}
+2016-10-19 10:02:08 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1065710.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1065710.html',
+ 'publish_time': u'2016-08-09 12:11:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe6\x96\xb0\xe6\x89\x8b\xe6\x95\x99\xe5\xad\xa6\xe8\xa7\x86\xe9\xa2\x91',
+ 'type_id': 1L}
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1058048.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1063208.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:08 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1058707.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1060503.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1060503.html',
+ 'publish_time': u'2016-08-06 09:00:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b8\xe6\x9c\x8810\xe6\x97\xa5\xe5\x85\xac\xe6\xb5\x8b\xe6\x9d\xa5\xe8\xa2\xad \xe7\xa9\xba\xe4\xb8\xad\xe5\xa9\x9a\xe7\xa4\xbc\xe5\xa4\x9a\xe4\xba\xba\xe9\xa3\x9e\xe8\xa1\x8c\xe7\x88\x86\xe6\x96\x99',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1058697.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1058697.html',
+ 'publish_time': u'2016-08-05 16:47:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b\xe7\x94\xb5\xe5\xbd\xb1\xe2\x80\x9c\xe6\x97\xb6\xe5\x85\x89\xe8\xaf\x9b\xe4\xbb\x99\xe2\x80\x9d\xe4\xb8\xbb\xe9\xa2\x98\xe6\x9b\xb2 8\xe6\x9c\x8810\xe6\x97\xa5\xe5\x85\xac\xe6\xb5\x8b',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1058048.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1058048.html',
+ 'publish_time': u'2016-08-05 10:29:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe6\x90\xba\xe4\xb9\x90\xe8\xa7\x86\xe4\xbd\x93\xe8\x82\xb2\xe5\xb8\xa6\xe4\xbd\xa0\xe7\x8e\xa9\xe8\xbd\xac\xe9\x87\x8c\xe7\xba\xa6\xe5\xa5\xa5\xe8\xbf\x90',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1063208.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1063208.html',
+ 'publish_time': u'2016-08-08 15:02:00',
+ 'rule_id': 1L,
+ 'title': '\xe6\x83\x85\xe6\x80\x80\xe5\x86\x8d\xe7\xbb\xad \xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe4\xb8\xbb\xe9\xa2\x98\xe6\x9b\xb2MV\xe5\xb9\xb4\xe5\x8d\x8e\xe7\x89\x88\xe9\x87\x8d\xe6\xba\xaf\xe9\x9d\x92\xe6\x98\xa5\xe6\x97\xb6\xe5\x85\x89',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1058707.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1058707.html',
+ 'publish_time': u'2016-08-09 12:01:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe7\x94\xb5\xe5\xbd\xb1\xe2\x80\x9c\xe6\x97\xb6\xe5\x85\x89\xe8\xaf\x9b\xe4\xbb\x99\xe2\x80\x9d\xe4\xb8\xbb\xe9\xa2\x98\xe6\x9b\xb2MV\xe4\xbb\x8a\xe6\x97\xa5\xe9\xa6\x96\xe5\x8f\x91',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1067383.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:09 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1065715.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:09 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1065746.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:09 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1065668.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1067383.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1067383.html',
+ 'publish_time': u'2016-08-09 21:25:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b8\xe6\x9c\x8810\xe6\x97\xa5\xe4\xb8\xb4\xe6\x97\xb6\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1065715.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1065715.html',
+ 'publish_time': u'2016-08-09 13:39:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe6\x97\xb6\xe5\x85\x89\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b\xe7\x94\xb5\xe5\xbd\xb1\xe4\xb8\xbb\xe9\xa2\x98\xe6\x9b\xb2MV\xef\xbc\x88\xe6\xb8\xb8\xe6\x88\x8f\xe7\x89\x88\xef\xbc\x89\xe9\xa6\x96\xe6\x9b\x9d',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1065746.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1065746.html',
+ 'publish_time': u'2016-08-09 13:37:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe2\x80\x9c\xe9\x9b\xa8\xe4\xb8\xad\xe6\x92\x91\xe4\xbc\x9e\xe2\x80\x9d\xe5\x89\xa7\xe6\x83\x85\xe5\x8a\xa8\xe7\x94\xbb\xe8\xa7\x86\xe9\xa2\x91',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1066801.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:09 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1065668.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1065668.html',
+ 'publish_time': u'2016-08-09 13:47:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b \xe6\x96\xb0\xe6\x89\x8b\xe8\xa7\x86\xe9\xa2\x91\xe5\x85\xac\xe6\xb5\x8b\xe5\xa4\x9a\xe9\x87\x8d\xe7\xa6\x8f\xe5\x88\xa9\xe5\xbc\x80\xe6\x9c\x8d\xe7\x8c\xae\xe7\xa4\xbc',
+ 'type_id': 1L}
+2016-10-19 10:02:09 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1065729.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:10 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1066801.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1066801.html',
+ 'publish_time': u'2016-08-09 23:55:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\x85\xac\xe6\xb5\x8b\xe5\xae\xa3\xe4\xbc\xa0\xe8\xa7\x86\xe9\xa2\x91',
+ 'type_id': 1L}
+2016-10-19 10:02:10 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1065729.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1065729.html',
+ 'publish_time': u'2016-08-09 13:38:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\xb9\xb4\xe5\x8d\x8e\xe7\x89\x88\xe4\xb8\xbb\xe9\xa2\x98\xe6\x9b\xb2MV',
+ 'type_id': 1L}
+2016-10-19 10:02:10 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1080490.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:10 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1080490.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1080490.html',
+ 'publish_time': u'2016-08-16 12:19:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe6\x97\xba\xe6\x97\xba\xe9\xbc\x8e\xe5\x8a\x9b\xe5\x90\x88\xe4\xbd\x9c\xe5\xbc\x80\xe5\xad\xa6\xe5\xad\xa3\xe5\x8d\x81\xe4\xb8\x87\xe5\xa5\x96\xe5\xad\xa6\xe9\x87\x91\xe7\xad\x89\xe4\xbd\xa0\xe6\x8b\xbf',
+ 'type_id': 1L}
+2016-10-19 10:02:10 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1066784.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:10 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1066784.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1066784.html',
+ 'publish_time': u'2016-08-10 00:05:00',
+ 'rule_id': 1L,
+ 'title': '\xe4\xb8\x8d\xe7\x81\xad\xe7\xbb\x8f\xe5\x85\xb8\xe6\x83\x85\xe6\x80\x80\xe5\x86\x8d\xe7\xbb\xad\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b10\xe6\x97\xa5\xe5\x85\xa8\xe5\xb9\xb3\xe5\x8f\xb0\xe5\x85\xac\xe6\xb5\x8b\xe5\xbc\x80\xe5\x90\xaf',
+ 'type_id': 1L}
+2016-10-19 10:02:10 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1081227.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1081145.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1081227.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1081227.html',
+ 'publish_time': u'2016-08-16 14:01:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x90\x8e\xe8\xa1\xa5\xe5\x81\xbf\xe6\x96\xb9\xe6\xa1\x88',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1086458.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1081145.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1081145.html',
+ 'publish_time': u'2016-08-16 13:37:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe7\x99\xbb\xe5\xbd\x95\xe5\xbc\x82\xe5\xb8\xb8\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1099872.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1107322.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1086458.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1086458.html',
+ 'publish_time': u'2016-08-18 11:28:00',
+ 'rule_id': 1L,
+ 'title': '\xe5\xbf\xab\xe4\xb9\x90\xe7\x9b\xb8\xe9\x99\xaa \xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe8\x82\xaf\xe5\xbe\xb7\xe5\x9f\xba\xe4\xb8\xbb\xe9\xa2\x98\xe9\x97\xa8\xe5\xba\x97\xe8\x90\xbd\xe6\x88\x90',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1099872.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1099872.html',
+ 'publish_time': u'2016-08-24 00:00:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b\xe4\xb9\x9d\xe6\xb8\xb8\xe7\x8b\xac\xe5\xae\xb6\xe8\x8d\xa3\xe8\x80\x80\xe7\xa4\xbc\xe5\x8c\x85\xe5\xb7\xb2\xe5\xbc\x80\xe6\x94\xbe\xe9\xa2\x86\xe5\x8f\x96',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1107322.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1107322.html',
+ 'publish_time': u'2016-08-27 09:00:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\xa4\x9a\xe5\x85\x83\xe4\xba\xa4\xe4\xba\x92\xe5\xae\xa3\xe4\xbc\xa0\xe7\x89\x87\xe6\x9b\x9d\xe5\x87\xba \xe6\xb2\x9f\xe9\x80\x9a\xe6\x97\xa0\xe6\x89\x80\xe4\xb8\x8d\xe5\x9c\xa8',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1099871.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1085418.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1099871.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1099871.html',
+ 'publish_time': u'2016-08-24 00:00:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b\xe4\xb9\x9d\xe6\xb8\xb8\xe5\x8f\xac\xe9\x9b\x86\xe7\xa4\xbc\xe5\x8c\x85\xe5\xb7\xb2\xe5\xbc\x80\xe6\x94\xbe\xe9\xa2\x86\xe5\x8f\x96',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1085418.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1085418.html',
+ 'publish_time': u'2016-08-17 19:56:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b8\xe6\x9c\x8818\xe6\x97\xa5\xe4\xbe\x8b\xe8\xa1\x8c\xe6\x9b\xb4\xe6\x96\xb0\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:11 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1137608.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:11 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1137608.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1137608.html',
+ 'publish_time': u'2016-09-08 14:13:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b9\xe6\x9c\x888\xe6\x97\xa5\xe4\xb8\xb4\xe6\x97\xb6\xe7\xbb\xb4\xe6\x8a\xa4\xe8\xa1\xa5\xe5\x81\xbf\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1148552.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1141135.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1166473.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1148552.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1148552.html',
+ 'publish_time': u'2016-09-12 18:56:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b9\xe6\x9c\x8822\xe6\x97\xa5\xe5\xbc\x80\xe5\x90\xaf\xe9\xa6\x96\xe9\x83\xa8\xe8\xb5\x84\xe6\x96\x99\xe7\x89\x87 \xe5\x85\xa8\xe6\x96\xb0\xe7\x8e\xa9\xe6\xb3\x95\xe7\xb3\xbb\xe7\xbb\x9f',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1141135.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1141135.html',
+ 'publish_time': u'2016-09-22 14:34:00',
+ 'rule_id': 1L,
+ 'title': '\xe5\x85\xac\xe6\xb5\x8b\xe6\xbb\xa1\xe6\x9c\x88\xe5\xba\x86\xe5\x85\xb8\xe5\xbc\x80\xe5\x90\xaf \xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe7\xb2\xbe\xe5\xbd\xa9\xe7\xa6\x8f\xe5\x88\xa9\xe5\xa4\xa7\xe6\x94\xbe\xe9\x80\x81',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1141122.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1166473.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1166473.html',
+ 'publish_time': u'2016-09-22 14:30:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe6\xad\xa3\xe5\xbc\x8f\xe6\x9c\x8d9\xe6\x9c\x8822\xe6\x97\xa5\xe4\xbe\x8b\xe8\xa1\x8c\xe6\x9b\xb4\xe6\x96\xb0\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1141122.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1141122.html',
+ 'publish_time': u'2016-09-09 11:00:00',
+ 'rule_id': 1L,
+ 'title': '\xe5\x85\xa8\xe6\x96\xb0\xe7\x89\x88\xe6\x9c\xac\xe4\xb8\x8d\xe6\x97\xa5\xe6\x9d\xa5\xe8\xa2\xad\xef\xbc\x81\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\x85\xa8\xe9\x9d\xa2\xe4\xbc\x98\xe5\x8c\x96\xe6\x8a\xa2\xe5\x85\x88\xe6\x9b\x9d\xe5\x85\x89',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1174474.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1170512.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1185160.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1174474.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1174474.html',
+ 'publish_time': u'2016-09-23 11:54:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe8\xb5\x84\xe6\x96\x99\xe7\xaf\x87\xe5\x9c\xa3\xe5\x85\xbd\xe9\x99\x8d\xe4\xb8\xb4\xe6\xb8\xb8\xe6\x88\x8f\xe6\xb5\x8b\xe8\xaf\x84',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1170512.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1170512.html',
+ 'publish_time': u'2016-09-22 14:33:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe9\xa6\x96\xe9\x83\xa8\xe8\xb5\x84\xe6\x96\x99\xe7\x89\x87\xe2\x80\x9c\xe5\x9c\xa3\xe5\x85\xbd\xe9\x99\x8d\xe4\xb8\xb4\xe4\xbb\x8a\xe6\x97\xa5\xe5\x85\xa8\xe5\xb9\xb3\xe5\x8f\xb0\xe5\xbc\x80\xe5\x90\xaf',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1185160.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1185160.html',
+ 'publish_time': u'2016-09-27 13:37:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe3\x80\x8b\xe5\x9b\xbd\xe5\xba\x86\xe8\x8a\x82\xe7\xa4\xbc\xe5\x8c\x85\xe5\xb7\xb2\xe5\xbc\x80\xe6\x94\xbe\xe9\xa2\x86\xe5\x8f\x96',
+ 'type_id': 1L}
+2016-10-19 10:02:12 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1186038.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:12 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1186038.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1186038.html',
+ 'publish_time': u'2016-09-27 20:49:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe6\xad\xa3\xe5\xbc\x8f\xe6\x9c\x8d9\xe6\x9c\x8828\xe6\x97\xa5\xe4\xbe\x8b\xe8\xa1\x8c\xe6\x9b\xb4\xe6\x96\xb0\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:13 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1186572.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:13 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1180477.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:13 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1215803.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:13 [scrapy] DEBUG: Crawled (200) <GET http://www.9game.cn/zhuxian/1213081.html> (referer: http://www.9game.cn/zhuxian/news-9-1/)
+2016-10-19 10:02:13 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1186572.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1186572.html',
+ 'publish_time': u'2016-09-28 10:10:00',
+ 'rule_id': 1L,
+ 'title': '\xe9\x95\xbf\xe5\x81\x87\xe5\xa5\xbd\xe7\xa4\xbc\xe5\xa4\xa9\xe5\xa4\xa9\xe9\x80\x81\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\x9b\xbd\xe5\xba\x86\xe6\xb4\xbb\xe5\x8a\xa8\xe4\xb8\x83\xe5\xa4\xa9\xe6\xac\xa2\xe4\xb9\x90\xe4\xb8\x8d\xe5\x81\x9c',
+ 'type_id': 1L}
+2016-10-19 10:02:13 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1180477.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1180477.html',
+ 'publish_time': u'2016-09-28 10:05:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe9\xa6\x96\xe9\x83\xa8\xe8\xb5\x84\xe6\x96\x99\xe7\x89\x87\xe7\x81\xab\xe7\x88\x86\xe5\x85\xa8\xe6\x96\xb0\xe4\xba\xa4\xe4\xba\x92\xe5\x8a\xa8\xe4\xbd\x9c\xe7\x94\x9c\xe8\x9c\x9c\xe6\x9b\x9d\xe5\x85\x89',
+ 'type_id': 1L}
+2016-10-19 10:02:13 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1215803.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1215803.html',
+ 'publish_time': u'2016-10-12 18:09:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b10\xe6\x9c\x8813\xe6\x97\xa5\xe4\xbe\x8b\xe8\xa1\x8c\xe6\x9b\xb4\xe6\x96\xb0\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x85\xac\xe5\x91\x8a',
+ 'type_id': 1L}
+2016-10-19 10:02:13 [scrapy] DEBUG: Scraped from <200 http://www.9game.cn/zhuxian/1213081.html>
+{'desc': u'\r\n                                    ',
+ 'link': 'http://www.9game.cn/zhuxian/1213081.html',
+ 'publish_time': u'2016-10-11 20:08:00',
+ 'rule_id': 1L,
+ 'title': '\xe3\x80\x8a\xe8\xaf\x9b\xe4\xbb\x99\xe6\x89\x8b\xe6\xb8\xb8\xe3\x80\x8b\xe5\x85\xa8\xe6\x96\xb0\xe6\xb3\x95\xe5\xae\x9d\xe9\x93\xb8\xe9\x80\xa0\xe7\xb3\xbb\xe7\xbb\x9f\xe6\x9b\x9d\xe5\x85\x89',
+ 'type_id': 1L}
+2016-10-19 10:02:13 [scrapy] INFO: Closing spider (finished)
+2016-10-19 10:02:13 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 26999,
+ 'downloader/request_count': 38,
+ 'downloader/request_method_count/GET': 38,
+ 'downloader/response_bytes': 516346,
+ 'downloader/response_count': 38,
+ 'downloader/response_status_count/200': 38,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 19, 2, 2, 13, 447538),
+ 'item_scraped_count': 36,
+ 'log_count/DEBUG': 75,
+ 'log_count/INFO': 44,
+ 'request_depth_max': 1,
+ 'response_received_count': 38,
+ 'scheduler/dequeued': 37,
+ 'scheduler/dequeued/memory': 37,
+ 'scheduler/enqueued': 37,
+ 'scheduler/enqueued/memory': 37,
+ 'start_time': datetime.datetime(2016, 10, 19, 2, 2, 6, 205372)}
+2016-10-19 10:02:13 [scrapy] INFO: Spider closed (finished)
